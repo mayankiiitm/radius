@@ -26,8 +26,8 @@ class Auth
         }
         return false;
     }
-    public static function hash($data,$key){
-        return hash_hmac('sha256', $data, $key);
+    protected static function hash($data,$key){
+        return hash_hmac(HASH_ALGO, $data, $key);
     }
 }
 ?>

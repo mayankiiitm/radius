@@ -1,3 +1,3 @@
 <?php
-echo "URL not found";
+return Json::make('0','invalid url or method',array())->response(404);
 ?>

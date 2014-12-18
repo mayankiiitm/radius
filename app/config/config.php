@@ -5,6 +5,7 @@ define('DB_PASSWORD', '');
 define('DB_HOST', '127.0.0.1');
 define('DRIVER','mysql');
 define('AUTH_TABLE', 'auth');
+define('HASH_ALGO','sha256');
 define('ACCESS_TOKEN_EXPIRY',30);
 date_default_timezone_set("Asia/Kolkata"); 
 ?>

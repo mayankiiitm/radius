@@ -4,7 +4,7 @@
 */
 class Model 
 {
-	 protected $db;
+	 public $db;
 	 public $error;
 	 public $count;
 	 function __construct(){
