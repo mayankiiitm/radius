@@ -1,4 +1,5 @@
 <?php
+header("Access-Control-Allow-Origin: *");
 require_once '../app/init.php';
 $route=new Route;
 $route->get('/user/register','Account@register');
